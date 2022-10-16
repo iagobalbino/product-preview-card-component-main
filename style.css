@@ -165,10 +165,42 @@ body {
   display: flex;
   height: 300px;
   width: 400px;
-  background-color: green;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .image {
   height: 100%;
   width: 100%;
+}
+
+.card-image,
+.card-info {
+  width: 50%;
+}
+
+.card-info {
+  padding: 5%;
+}
+
+.product-type {
+  text-transform: uppercase;
+}
+
+.product-type,
+.product-info {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-info h1 {
+  font-family: 'Fraunces', serif;
+}
+
+.main-price,
+.old-price {
+  font-family: 'Fraunces', serif;
+  display: inline;
+}
+
+.old-price {
+  text-decoration: line-through;
 }
