@@ -164,14 +164,16 @@ body {
 
 .card {
   display: flex;
-  height: 300px;
-  width: 400px;
+  height: 400px;
+  width: 550px;
   background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
 }
 
 .image {
   height: 100%;
   width: 100%;
+  border-radius: 10px 0 0 10px;
 }
 
 .card-image,
@@ -185,7 +187,7 @@ body {
 
 .product-type {
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: hsl(228, 12%, 48%);
   padding-bottom: 20px;
 }
@@ -198,12 +200,19 @@ body {
 .product-info {
   color: hsl(228, 12%, 48%);
   padding-bottom: 20px;
+  line-height: 1.4;
 }
 
 .card-info h1 {
   font-family: 'Fraunces', serif;
   font-size: 28px;
   padding-bottom: 20px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .main-price,
@@ -215,20 +224,32 @@ body {
   font-size: 24px;
   font-family: 'Fraunces', serif;
   color: hsl(158, 36%, 37%);
+  margin-right: 20px;
 }
 
 .old-price {
   text-decoration: line-through;
-  font-size: 10px;
+  font-size: 12px;
   color: hsl(228, 12%, 48%);
 }
 
 .button {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   color: #fff;
   background: hsl(158, 36%, 37%);
   border: none;
-  height: 30px;
-  width: 150px;
+  height: 50px;
+  width: 100%;
   border-radius: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button img {
+  margin-right: 10px;
 }
