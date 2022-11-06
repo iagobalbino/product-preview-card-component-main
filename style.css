@@ -244,12 +244,12 @@ body {
   border-radius: 5px;
 }
 
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .button img {
   margin-right: 10px;
+}
+
+.button:hover {
+  background: hsl(212, 21%, 14%);
+  cursor: pointer;
 }
