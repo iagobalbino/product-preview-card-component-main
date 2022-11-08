@@ -79,6 +79,9 @@ body {
 }
 
 .image {
+  background-image: url("images/image-product-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 110%;
   height: 100%;
   width: 100%;
   border-radius: 10px 0 0 10px;
@@ -169,4 +172,28 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 480px) {
+  .card {
+    height: 600px;
+    width: 350px;
+    flex-direction: column;
+  }
+
+  .card-image,
+  .card-info {
+    height: 50%;
+    width: 100%;
+  }
+
+  .card-info {
+    padding: 0;
+  }
+
+  .image {
+    background-image: url("images/image-product-mobile.jpg");
+    background-size: 100%;
+  }
+
 }
