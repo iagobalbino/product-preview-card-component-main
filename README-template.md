@@ -6,7 +6,6 @@ Esta é a solução para o [Product preview card component challenge on Frontend
 
 - [Overview](#overview)
   - [O desafio](#o-desafio)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [Meu processo](#meu-processo)
   - [Construído com](#construído-com)
@@ -23,10 +22,6 @@ Os usuários devem ser capazes de:
 - Ver o layout ideal dependendo do tamanho da tela do dispositivo
 - Ver o hover e o focus nos elementos interativos
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
 - URL da solução: [Add solution URL here](https://your-solution-url.com)
@@ -37,7 +32,7 @@ Os usuários devem ser capazes de:
 ### Construído com
 
 - HTML5 semântico
-- CSS
+- CSS3
 - Flexbox
 
 ### O que aprendi
