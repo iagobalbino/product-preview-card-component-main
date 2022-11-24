@@ -25,11 +25,11 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/main_page.gif)
 
 ### Links
 
-- URL da solução: [Add solution URL here](https://your-solution-url.com)
+- URL da solução: [https://iagobalbino.github.io/product-preview-card-component-main/](https://your-solution-url.com)
 - Meu Site: [https://iagobalbino.com.br/](https://iagobalbino.com.br/)
 
 ## Meu processo
